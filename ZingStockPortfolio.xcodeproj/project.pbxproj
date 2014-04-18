@@ -21,6 +21,24 @@
 		DEC37B6F18F37CAE00D9B22B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC37B5118F37CAE00D9B22B /* UIKit.framework */; };
 		DEC37B7718F37CAE00D9B22B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEC37B7518F37CAE00D9B22B /* InfoPlist.strings */; };
 		DEC37B7918F37CAE00D9B22B /* ZingStockPortfolioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC37B7818F37CAE00D9B22B /* ZingStockPortfolioTests.m */; };
+		DEC37B8618F386B400D9B22B /* MAFinance.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC37B8318F386B400D9B22B /* MAFinance.m */; };
+		DEC37B8718F386B400D9B22B /* MAStockGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC37B8518F386B400D9B22B /* MAStockGraph.m */; };
+		DEC37B9018F38C2D00D9B22B /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC37B8B18F38C2D00D9B22B /* Line.m */; };
+		DEC37B9118F38C2D00D9B22B /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC37B8D18F38C2D00D9B22B /* Circle.m */; };
+		DEC37B9218F38C2D00D9B22B /* Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC37B8F18F38C2D00D9B22B /* Animation.m */; };
+		DEC37B9818F396B000D9B22B /* MAFont.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC37B9718F396B000D9B22B /* MAFont.m */; };
+		DEC37B9B18F3A71D00D9B22B /* QuoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC37B9A18F3A71D00D9B22B /* QuoteCell.m */; };
+		DEC37B9E18F3AA6300D9B22B /* AAPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC37B9D18F3AA6300D9B22B /* AAPullToRefresh.m */; };
+		DEC37BA218F3AE1300D9B22B /* clearhold.png in Resources */ = {isa = PBXBuildFile; fileRef = DEC37BA118F3AE1300D9B22B /* clearhold.png */; };
+		DEC37BA618F3BFAF00D9B22B /* lato.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEC37BA518F3BFAF00D9B22B /* lato.ttf */; };
+		DEC37BA818F3C3F500D9B22B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC37BA718F3C3F500D9B22B /* CoreData.framework */; };
+		DEC37BAB18F3C4AE00D9B22B /* DataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC37BAA18F3C4AE00D9B22B /* DataHandler.m */; };
+		DEC37BAE18F3C4ED00D9B22B /* StockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC37BAD18F3C4ED00D9B22B /* StockViewController.m */; };
+		DEC37BB118F3C53200D9B22B /* TicketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC37BB018F3C53200D9B22B /* TicketViewController.m */; };
+		DEC37BB318F5044500D9B22B /* back_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = DEC37BB218F5044500D9B22B /* back_arrow.png */; };
+		DEC37BB518F5047200D9B22B /* glass1.png in Resources */ = {isa = PBXBuildFile; fileRef = DEC37BB418F5047200D9B22B /* glass1.png */; };
+		DEC37BB718F504A000D9B22B /* new_X.png in Resources */ = {isa = PBXBuildFile; fileRef = DEC37BB618F504A000D9B22B /* new_X.png */; };
+		DEC37BBD18F5B29F00D9B22B /* ticket.png in Resources */ = {isa = PBXBuildFile; fileRef = DEC37BBC18F5B29F00D9B22B /* ticket.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +71,35 @@
 		DEC37B7418F37CAE00D9B22B /* ZingStockPortfolioTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZingStockPortfolioTests-Info.plist"; sourceTree = "<group>"; };
 		DEC37B7618F37CAE00D9B22B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DEC37B7818F37CAE00D9B22B /* ZingStockPortfolioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZingStockPortfolioTests.m; sourceTree = "<group>"; };
+		DEC37B8218F386B400D9B22B /* MAFinance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFinance.h; sourceTree = "<group>"; };
+		DEC37B8318F386B400D9B22B /* MAFinance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAFinance.m; sourceTree = "<group>"; };
+		DEC37B8418F386B400D9B22B /* MAStockGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAStockGraph.h; sourceTree = "<group>"; };
+		DEC37B8518F386B400D9B22B /* MAStockGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAStockGraph.m; sourceTree = "<group>"; };
+		DEC37B8A18F38C2D00D9B22B /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		DEC37B8B18F38C2D00D9B22B /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
+		DEC37B8C18F38C2D00D9B22B /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		DEC37B8D18F38C2D00D9B22B /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		DEC37B8E18F38C2D00D9B22B /* Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation.h; sourceTree = "<group>"; };
+		DEC37B8F18F38C2D00D9B22B /* Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation.m; sourceTree = "<group>"; };
+		DEC37B9618F396B000D9B22B /* MAFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFont.h; sourceTree = "<group>"; };
+		DEC37B9718F396B000D9B22B /* MAFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAFont.m; sourceTree = "<group>"; };
+		DEC37B9918F3A71D00D9B22B /* QuoteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuoteCell.h; sourceTree = "<group>"; };
+		DEC37B9A18F3A71D00D9B22B /* QuoteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuoteCell.m; sourceTree = "<group>"; };
+		DEC37B9C18F3AA6300D9B22B /* AAPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPullToRefresh.h; sourceTree = "<group>"; };
+		DEC37B9D18F3AA6300D9B22B /* AAPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPullToRefresh.m; sourceTree = "<group>"; };
+		DEC37BA118F3AE1300D9B22B /* clearhold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clearhold.png; sourceTree = "<group>"; };
+		DEC37BA518F3BFAF00D9B22B /* lato.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = lato.ttf; sourceTree = "<group>"; };
+		DEC37BA718F3C3F500D9B22B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DEC37BA918F3C4AE00D9B22B /* DataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataHandler.h; sourceTree = "<group>"; };
+		DEC37BAA18F3C4AE00D9B22B /* DataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataHandler.m; sourceTree = "<group>"; };
+		DEC37BAC18F3C4ED00D9B22B /* StockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockViewController.h; sourceTree = "<group>"; };
+		DEC37BAD18F3C4ED00D9B22B /* StockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockViewController.m; sourceTree = "<group>"; };
+		DEC37BAF18F3C53200D9B22B /* TicketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketViewController.h; sourceTree = "<group>"; };
+		DEC37BB018F3C53200D9B22B /* TicketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketViewController.m; sourceTree = "<group>"; };
+		DEC37BB218F5044500D9B22B /* back_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_arrow.png; sourceTree = "<group>"; };
+		DEC37BB418F5047200D9B22B /* glass1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glass1.png; sourceTree = "<group>"; };
+		DEC37BB618F504A000D9B22B /* new_X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new_X.png; sourceTree = "<group>"; };
+		DEC37BBC18F5B29F00D9B22B /* ticket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ticket.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEC37BA818F3C3F500D9B22B /* CoreData.framework in Frameworks */,
 				DEC37B5018F37CAE00D9B22B /* CoreGraphics.framework in Frameworks */,
 				DEC37B5218F37CAE00D9B22B /* UIKit.framework in Frameworks */,
 				DEC37B4E18F37CAE00D9B22B /* Foundation.framework in Frameworks */,
@@ -101,6 +149,7 @@
 		DEC37B4C18F37CAE00D9B22B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DEC37BA718F3C3F500D9B22B /* CoreData.framework */,
 				DEC37B4D18F37CAE00D9B22B /* Foundation.framework */,
 				DEC37B4F18F37CAE00D9B22B /* CoreGraphics.framework */,
 				DEC37B5118F37CAE00D9B22B /* UIKit.framework */,
@@ -114,7 +163,14 @@
 			children = (
 				DEC37B5C18F37CAE00D9B22B /* AppDelegate.h */,
 				DEC37B5D18F37CAE00D9B22B /* AppDelegate.m */,
+				DEC37B9318F38FBA00D9B22B /* Stocks */,
 				DEC37B5F18F37CAE00D9B22B /* Main.storyboard */,
+				DEC37BAF18F3C53200D9B22B /* TicketViewController.h */,
+				DEC37BB018F3C53200D9B22B /* TicketViewController.m */,
+				DEC37BAC18F3C4ED00D9B22B /* StockViewController.h */,
+				DEC37BAD18F3C4ED00D9B22B /* StockViewController.m */,
+				DEC37BA918F3C4AE00D9B22B /* DataHandler.h */,
+				DEC37BAA18F3C4AE00D9B22B /* DataHandler.m */,
 				DEC37B6218F37CAE00D9B22B /* ViewController.h */,
 				DEC37B6318F37CAE00D9B22B /* ViewController.m */,
 				DEC37B6518F37CAE00D9B22B /* Images.xcassets */,
@@ -126,6 +182,12 @@
 		DEC37B5418F37CAE00D9B22B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DEC37BBC18F5B29F00D9B22B /* ticket.png */,
+				DEC37BB618F504A000D9B22B /* new_X.png */,
+				DEC37BB418F5047200D9B22B /* glass1.png */,
+				DEC37BB218F5044500D9B22B /* back_arrow.png */,
+				DEC37BA118F3AE1300D9B22B /* clearhold.png */,
+				DEC37BA518F3BFAF00D9B22B /* lato.ttf */,
 				DEC37B5518F37CAE00D9B22B /* ZingStockPortfolio-Info.plist */,
 				DEC37B5618F37CAE00D9B22B /* InfoPlist.strings */,
 				DEC37B5918F37CAE00D9B22B /* main.m */,
@@ -150,6 +212,29 @@
 				DEC37B7518F37CAE00D9B22B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEC37B9318F38FBA00D9B22B /* Stocks */ = {
+			isa = PBXGroup;
+			children = (
+				DEC37B9C18F3AA6300D9B22B /* AAPullToRefresh.h */,
+				DEC37B9D18F3AA6300D9B22B /* AAPullToRefresh.m */,
+				DEC37B9618F396B000D9B22B /* MAFont.h */,
+				DEC37B9718F396B000D9B22B /* MAFont.m */,
+				DEC37B8218F386B400D9B22B /* MAFinance.h */,
+				DEC37B8318F386B400D9B22B /* MAFinance.m */,
+				DEC37B8418F386B400D9B22B /* MAStockGraph.h */,
+				DEC37B8518F386B400D9B22B /* MAStockGraph.m */,
+				DEC37B8A18F38C2D00D9B22B /* Line.h */,
+				DEC37B8B18F38C2D00D9B22B /* Line.m */,
+				DEC37B8C18F38C2D00D9B22B /* Circle.h */,
+				DEC37B8D18F38C2D00D9B22B /* Circle.m */,
+				DEC37B8E18F38C2D00D9B22B /* Animation.h */,
+				DEC37B8F18F38C2D00D9B22B /* Animation.m */,
+				DEC37B9918F3A71D00D9B22B /* QuoteCell.h */,
+				DEC37B9A18F3A71D00D9B22B /* QuoteCell.m */,
+			);
+			name = Stocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +316,12 @@
 				DEC37B6618F37CAE00D9B22B /* Images.xcassets in Resources */,
 				DEC37B5818F37CAE00D9B22B /* InfoPlist.strings in Resources */,
 				DEC37B6118F37CAE00D9B22B /* Main.storyboard in Resources */,
+				DEC37BB518F5047200D9B22B /* glass1.png in Resources */,
+				DEC37BBD18F5B29F00D9B22B /* ticket.png in Resources */,
+				DEC37BA618F3BFAF00D9B22B /* lato.ttf in Resources */,
+				DEC37BB718F504A000D9B22B /* new_X.png in Resources */,
+				DEC37BB318F5044500D9B22B /* back_arrow.png in Resources */,
+				DEC37BA218F3AE1300D9B22B /* clearhold.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +340,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEC37BAB18F3C4AE00D9B22B /* DataHandler.m in Sources */,
+				DEC37B8618F386B400D9B22B /* MAFinance.m in Sources */,
+				DEC37B9218F38C2D00D9B22B /* Animation.m in Sources */,
+				DEC37B9B18F3A71D00D9B22B /* QuoteCell.m in Sources */,
+				DEC37B9018F38C2D00D9B22B /* Line.m in Sources */,
+				DEC37BB118F3C53200D9B22B /* TicketViewController.m in Sources */,
+				DEC37B9E18F3AA6300D9B22B /* AAPullToRefresh.m in Sources */,
+				DEC37B9818F396B000D9B22B /* MAFont.m in Sources */,
+				DEC37B8718F386B400D9B22B /* MAStockGraph.m in Sources */,
 				DEC37B6418F37CAE00D9B22B /* ViewController.m in Sources */,
+				DEC37B9118F38C2D00D9B22B /* Circle.m in Sources */,
+				DEC37BAE18F3C4ED00D9B22B /* StockViewController.m in Sources */,
 				DEC37B5E18F37CAE00D9B22B /* AppDelegate.m in Sources */,
 				DEC37B5A18F37CAE00D9B22B /* main.m in Sources */,
 			);
@@ -460,6 +562,7 @@
 				DEC37B7E18F37CAE00D9B22B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DEC37B7F18F37CAE00D9B22B /* Build configuration list for PBXNativeTarget "ZingStockPortfolioTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +571,7 @@
 				DEC37B8118F37CAE00D9B22B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
